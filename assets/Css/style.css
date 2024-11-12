@@ -1,0 +1,96 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: rgb(41, 40, 40);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.corpo {
+    background-color: white;
+    max-width: 39rem;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Imagem */
+.img-omelette {
+    margin: auto auto;
+    border-radius: 10px;
+}
+
+/* Preparo */
+.preparo {
+    background-color: hsl(330, 88%, 97%);
+    margin-top: 5px;
+    border-radius: 10px;
+    line-height: 2rem;
+}
+
+.preparo h3 {
+    margin-left: 15px;
+}
+
+.preparo span {
+    font-weight: 800;
+}
+
+/* Ingredientes */
+.ingredientes {
+    line-height: 2rem;
+}
+
+.ingredientes li {
+    padding-left: 10px;
+}
+
+/* Instructions */
+.instructions {
+    line-height: 30px;
+}
+
+.instructions ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.instructions span {
+    font-weight: 800;
+}
+
+/* Nutrition */
+
+.tabela {
+    width: 100%;
+    line-height: 1.7rem;
+}
+
+td, th{
+    border-bottom: solid 1px black;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    color:  hsl(14, 45%, 36%);
+}

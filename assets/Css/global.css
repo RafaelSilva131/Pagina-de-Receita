@@ -1,0 +1,26 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* Reset */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+a{
+   text-decoration: none;
+    color: inherit;
+}
+
+/* ul{
+    list-style: none;
+} */
+
+img{
+    max-width: 100%;
+}
